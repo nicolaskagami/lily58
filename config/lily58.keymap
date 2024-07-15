@@ -21,7 +21,7 @@
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
-            display-name = "Base";
+            display-name = "base";
             bindings = <
 &kp ESC        &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                            &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &kp MINUS
 &kp TAB        &kp Q   &kp W   &kp E   &kp R      &kp T                                             &kp Y   &kp U     &kp I      &kp O    &kp P     &kp EQUAL
@@ -39,7 +39,7 @@
             // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "navigation";
+            display-name = "nav";
             bindings = <
 &kp PRINTSCREEN  &kp F1           &kp F2       &kp F3       &kp F4           &kp F5                         &kp F6     &kp F7     &kp F8        &kp F9    &kp F10   &trans
 &kp INS          &mkp MB4         &kp PG_DN    &kp UP       &kp PG_UP        &mkp MB5                       &kp F7     &kp F8     &kp F9        &kp F10   &kp F11   &kp F12
@@ -57,13 +57,13 @@
             // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "symbol";
+            display-name = "sym";
             bindings = <
-&bt BT_CLR  &bt BT_NXT      &bt BT_PRV        &trans                &trans                 &trans                       &kp EQUAL  &kp COMMA  &kp DOT  &trans  &trans     &trans
-&trans      &kp GRAVE       &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N5                       &kp PLUS   &kp N7     &kp N8   &kp N9  &kp STAR   &kp STAR
-&trans      &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LBKT              &kp RBKT               &kp F6                       &kp MINUS  &kp N4     &kp N5   &kp N6  &kp SLASH  &kp FSLH
-&trans      &kp BACKSLASH   &kp SLASH         &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH  &trans    &trans  &kp N0     &kp N1     &kp N2   &kp N3  &kp BSLH   &kp BSLH
-                                              &mo 3                 &trans                 &trans     &trans    &trans  &trans     &trans     &trans
+&trans  &trans          &trans            &trans                &trans                 &trans                       &kp EQUAL  &kp COMMA  &kp DOT  &trans  &trans     &trans
+&trans  &kp GRAVE       &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N5                       &kp PLUS   &kp N7     &kp N8   &kp N9  &kp STAR   &kp STAR
+&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LBKT              &kp RBKT               &kp F6                       &kp MINUS  &kp N4     &kp N5   &kp N6  &kp SLASH  &kp FSLH
+&trans  &kp BACKSLASH   &kp SLASH         &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH  &trans    &trans  &kp N0     &kp N1     &kp N2   &kp N3  &kp BSLH   &kp BSLH
+                                          &mo 3                 &trans                 &trans     &trans    &trans  &trans     &trans     &trans
             >;
         };
 
