@@ -23,11 +23,11 @@
 
             display-name = "base";
             bindings = <
-&kp ESC        &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                        &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB        &kp Q   &kp W   &kp E   &kp R      &kp T                                         &kp Y   &kp U     &kp I      &kp O    &kp P     &kp EQUAL
-&kp BACKSPACE  &kp A   &kp S   &kp D   &kp F      &kp G                                         &kp H   &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z   &kp X   &kp C   &kp V      &kp B         &kp ENTER    &kp LC(BACKSPACE)  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-                               &mo 1   &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &kp LC(SPACE)      &mo 2   &kp BSPC  &kp RGUI
+&kp ESC        &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                        &kp N6  &kp N7     &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp TAB        &kp Q   &kp W   &kp E   &kp R      &kp T                                         &kp Y   &kp U      &kp I      &kp O    &kp P     &kp EQUAL
+&kp BACKSPACE  &kp A   &kp S   &kp D   &kp F      &kp G                                         &kp H   &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z   &kp X   &kp C   &kp V      &kp B         &kp DEL      &kp ENTER          &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
+                               &mo 1   &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &kp LC(BACKSPACE)  &mo 2   &kp RCTRL  &kp RGUI
             >;
         };
 
@@ -41,11 +41,11 @@
 
             display-name = "nav";
             bindings = <
-&kp PRINTSCREEN  &kp F1           &kp F2       &kp F3       &kp F4           &kp F5                         &kp F6     &kp F7     &kp F8        &kp F9    &kp F10   &trans
+&kp PRINTSCREEN  &kp F1           &kp F2       &kp F3       &kp F4           &kp F5                         &kp F6     &kp F7     &kp F8        &kp F9    &kp F10   &kp F11
 &kp INS          &mkp MB4         &kp PG_DN    &kp UP       &kp PG_UP        &mkp MB5                       &kp F7     &kp F8     &kp F9        &kp F10   &kp F11   &kp F12
-&kp DEL          &kp HOME         &kp LEFT     &kp DOWN     &kp RIGHT        &kp END                        &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR  &kp RPAR  &kp TILDE
-&kp LEFT_SHIFT   &kp LA(LS(TAB))  &kp LA(TAB)  &kp LC(TAB)  &kp LC(LS(TAB))  &kp RBKT  &kp ENTER    &trans  &trans     &kp MINUS  &kp PLUS      &kp LBRC  &kp RBRC  &kp PIPE
-                                               &trans       &trans           &trans    &kp SPACE    &trans  &mo 3      &trans     &trans
+&trans           &kp HOME         &kp LEFT     &kp DOWN     &kp RIGHT        &kp END                        &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR  &kp RPAR  &kp TILDE
+&trans           &kp LA(LS(TAB))  &kp LA(TAB)  &kp LC(TAB)  &kp LC(LS(TAB))  &trans    &kp ENTER    &trans  &trans     &kp MINUS  &kp PLUS      &kp LBRC  &kp RBRC  &kp PIPE
+                                               &trans       &trans           &trans    &trans       &trans  &mo 3      &trans     &trans
             >;
         };
 
@@ -59,11 +59,11 @@
 
             display-name = "sym";
             bindings = <
-&trans  &kp GRAVE       &kp SQT          &trans                &trans                 &trans                    &kp EQUAL  &kp COMMA  &kp DOT  &trans  &trans     &trans
-&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &kp PLUS   &kp N7     &kp N8   &kp N9  &kp STAR   &kp STAR
-&trans  &kp BSLH        &kp FSLH         &kp LBKT              &kp RBKT               &trans                    &kp MINUS  &kp N4     &kp N5   &kp N6  &kp SLASH  &kp FSLH
-&trans  &kp PIPE        &kp QUESTION     &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans    &trans  &kp N0     &kp N1     &kp N2   &kp N3  &kp BSLH   &kp BSLH
-                                         &mo 3                 &trans                 &trans  &trans    &trans  &trans     &trans     &trans
+&trans  &kp GRAVE       &kp SQT          &trans                &trans                 &trans                    &kp EQUAL  &trans     &trans      &trans  &trans     &trans
+&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &kp PLUS   &kp N7     &kp N8      &kp N9  &kp STAR   &kp STAR
+&trans  &kp BSLH        &kp FSLH         &kp LBKT              &kp RBKT               &trans                    &kp MINUS  &kp N4     &kp N5      &kp N6  &kp SLASH  &kp FSLH
+&trans  &kp PIPE        &kp QUESTION     &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans    &trans  &kp N0     &kp N1     &kp N2      &kp N3  &kp BSLH   &kp BSLH
+                                         &mo 3                 &trans                 &trans  &trans    &trans  &trans     &kp COMMA  &kp PERIOD
             >;
         };
 
@@ -74,16 +74,6 @@
 &trans      &trans      &trans      &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans      &trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
